@@ -1,0 +1,91 @@
+*,
+::after
+::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1107px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.work-section{
+    background: rgb(255,255,255);
+    background: linear-gradient(83deg, rgba(255,255,255,1) 0%, rgba(234,252,255,1) 58%, rgba(0,212,255,1) 100%);
+}
+.work-row{
+    display: flex;
+}
+.work-block{
+    width: 468px;
+    height: 559px;
+    text-align: center;
+    border: 1px solid rgba(13, 13, 13, 0.53);
+}
+.line{
+    width: 145px;
+    height: 1px;
+    background-color: #000;
+    margin: 0px auto  30px;
+}
+.work-title{
+    width: 256px;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.work-text1{
+    width: 219px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+.work-text2{
+    width: 219px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+.form-block{
+    margin: 0 auto;
+    padding: 52px 0 63px;
+    text-align: center;
+}
+.form-row{
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 31px;
+}
+.mass{
+    width: 508px;
+    height: 195px;
+    margin-bottom: 21px;
+}
+input{
+    width: 100%;
+    font-size: 24px;
+    border: 2px solid rgba(13, 13, 13, 0.53);
+}
+label{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.500);
+}
+button{
+    width: 247px;
+    height: 59px;
+    background: #EAFCFF;
+    font-size: 20px;
+
+}
